@@ -1,0 +1,24 @@
+{
+  "name": "autoescola-quiz",
+  "version": "1.0.0",
+  "description": "Qüestionari tipus test de l'examen teòric de conduir amb panell d'administració (Node.js, Express, MySQL)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js",
+    "migrate": "node --env-file=.env scripts/migrate.js"
+  },
+  "keywords": [],
+  "author": "Alex Brandão",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "mysql": "^2.18.1",
+    "uuid": "^14.0.2"
+  },
+  "engines": {
+    "node": ">=20.6"
+  }
+}

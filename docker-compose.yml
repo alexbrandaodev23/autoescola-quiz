@@ -1,0 +1,26 @@
+# Base de dades MySQL + Adminer per desenvolupar en local
+services:
+  db:
+    image: mysql:8.2.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: autoescola
+      MYSQL_USER: quiz
+      MYSQL_PASSWORD: quiz
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+
+  adminer:
+    image: adminer:4.8.1
+    restart: always
+    ports:
+      - "9090:8080"
+    depends_on:
+      - db
+
+volumes:
+  mysql_data:

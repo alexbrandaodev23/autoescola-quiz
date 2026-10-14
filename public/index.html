@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="data:,">
+    <title>Autoescola Pedralbes</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Autoescola Pedralbes</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Joc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.html">Administració</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <div id="zonaLogin" class="card card-body hidden">
+                    <h2 class="h4">Benvingut al Joc!</h2>
+                    <form id="formNom">
+                        <label for="inputNom">Com et dius?</label>
+                        <input type="text" id="inputNom" class="form-control" required>
+                        <button type="submit" class="btn btn-primary mt-2">entrar</button>
+                    </form>
+                </div>
+
+                <div id="zonaJoc" class="hidden">
+                    <p class="text-center">hola, <span id="nomJugador"></span>!
+                        <button id="btnEsborrarNom" class="btn btn-sm btn-outline-secondary">Esborrar Nom</button>
+                    </p>
+                    <p class="text-center">Temps: <span id="temps">30</span> s</p>
+                    <p id="missatge" class="text-center text-danger fw-bold"></p>
+                    <div id="marcador" class="mb-3"></div>
+                    <button id="btnEnviar" onclick="enviarRespostes()" class="hidden btn btn-danger w-100">Enviar
+                        Respostes</button>
+
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div id="partida"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <button id="btnAnterior" class="btn btn-outline-primary">&larr;</button>
+                        <span>Pregunta <span id="numPregunta">1</span> de <span id="totalPreguntes">10</span></span>
+                        <button id="btnSeguent" class="btn btn-outline-primary">&rarr;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="funcions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+{
+  "preguntes": [
+    {
+      "id": 1,
+      "pregunta": "1. Quina és la velocitat màxima genèrica per a turismes en autopista i autovia a Espanya?",
+      "respostes": [
+        { "id": 1, "resposta": "120 km/h", "correcta": true },
+        { "id": 2, "resposta": "100 km/h", "correcta": false },
+        { "id": 3, "resposta": "110 km/h", "correcta": false },
+        { "id": 4, "resposta": "130 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-120.svg"
+    },
+    {
+      "id": 2,
+      "pregunta": "2. Quina és la velocitat màxima genèrica per a turismes en carretera convencional (fora de poblat)?",
+      "respostes": [
+        { "id": 1, "resposta": "100 km/h", "correcta": false },
+        { "id": 2, "resposta": "90 km/h", "correcta": true },
+        { "id": 3, "resposta": "80 km/h", "correcta": false },
+        { "id": 4, "resposta": "70 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-90.svg"
+    },
+    {
+      "id": 3,
+      "pregunta": "3 .Quina és la velocitat màxima genèrica en una via urbana amb més d'un carril per sentit?",
+      "respostes": [
+        { "id": 1, "resposta": "30 km/h", "correcta": false },
+        { "id": 2, "resposta": "40 km/h", "correcta": false },
+        { "id": 3, "resposta": "50 km/h", "correcta": true },
+        { "id": 4, "resposta": "60 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-50.svg"
+    },
+    {
+      "id": 4,
+      "pregunta": "4. Des de la reforma de 2021, quina és la velocitat màxima genèrica en un carrer d'un sol carril per sentit dins d'una població?",
+      "respostes": [
+        { "id": 1, "resposta": "20 km/h", "correcta": false },
+        { "id": 2, "resposta": "30 km/h", "correcta": true },
+        { "id": 3, "resposta": "40 km/h", "correcta": false },
+        { "id": 4, "resposta": "50 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-30.svg"
+    },
+    {
+      "id": 5,
+      "pregunta": "5. Quina és la velocitat màxima genèrica en un carrer de plataforma única (sense diferenciar vorera i calçada)?",
+      "respostes": [
+        { "id": 1, "resposta": "10 km/h", "correcta": false },
+        { "id": 2, "resposta": "20 km/h", "correcta": true },
+        { "id": 3, "resposta": "30 km/h", "correcta": false },
+        { "id": 4, "resposta": "40 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-20.svg"
+    },
+    {
+      "id": 6,
+      "pregunta": "6. Quina és la velocitat màxima genèrica en una zona d'estacionament (pàrquing)?",
+      "respostes": [
+        { "id": 1, "resposta": "5 km/h", "correcta": false },
+        { "id": 2, "resposta": "10 km/h", "correcta": true },
+        { "id": 3, "resposta": "15 km/h", "correcta": false },
+        { "id": 4, "resposta": "20 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-10.svg"
+    },
+    {
+      "id": 7,
+      "pregunta": "7. Quina velocitat màxima indica aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "30 km/h", "correcta": false },
+        { "id": 2, "resposta": "50 km/h", "correcta": false },
+        { "id": 3, "resposta": "40 km/h", "correcta": true },
+        { "id": 4, "resposta": "45 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-40.svg"
+    },
+    {
+      "id": 8,
+      "pregunta": "8. Quina velocitat màxima indica aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "70 km/h", "correcta": false },
+        { "id": 2, "resposta": "60 km/h", "correcta": true },
+        { "id": 3, "resposta": "50 km/h", "correcta": false },
+        { "id": 4, "resposta": "65 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-60.svg"
+    },
+    {
+      "id": 9,
+      "pregunta": "9. Quina velocitat màxima indica aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "80 km/h", "correcta": false },
+        { "id": 2, "resposta": "60 km/h", "correcta": false },
+        { "id": 3, "resposta": "70 km/h", "correcta": true },
+        { "id": 4, "resposta": "75 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-70.svg"
+    },
+    {
+      "id": 10,
+      "pregunta": "10. Quina velocitat màxima indica aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "90 km/h", "correcta": false },
+        { "id": 2, "resposta": "80 km/h", "correcta": true },
+        { "id": 3, "resposta": "70 km/h", "correcta": false },
+        { "id": 4, "resposta": "85 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-80.svg"
+    },
+    {
+      "id": 11,
+      "pregunta": "11. Quina és la velocitat màxima en autopista/autovia per a autobusos i furgonetes?",
+      "respostes": [
+        { "id": 1, "resposta": "110 km/h", "correcta": false },
+        { "id": 2, "resposta": "90 km/h", "correcta": false },
+        { "id": 3, "resposta": "100 km/h", "correcta": true },
+        { "id": 4, "resposta": "95 km/h", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-100.svg"
+    },
+    {
+      "id": 12,
+      "pregunta": "12. Quina velocitat màxima indica aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "120 km/h", "correcta": false },
+        { "id": 2, "resposta": "100 km/h", "correcta": false },
+        { "id": 3, "resposta": "90 km/h", "correcta": false },
+        { "id": 4, "resposta": "110 km/h", "correcta": true }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r301-110.svg"
+    },
+    {
+      "id": 13,
+      "pregunta": "13. Quin és el significat d'aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "Parada obligatòria", "correcta": false },
+        { "id": 2, "resposta": "Cediu el pas", "correcta": true },
+        { "id": 3, "resposta": "Prohibit el pas", "correcta": false },
+        { "id": 4, "resposta": "Intersecció amb prioritat", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r1.svg"
+    },
+    {
+      "id": 14,
+      "pregunta": "14. Quin és el significat d'aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "Cediu el pas", "correcta": false },
+        { "id": 2, "resposta": "Parada obligatòria (Stop)", "correcta": true },
+        { "id": 3, "resposta": "Prohibit avançar", "correcta": false },
+        { "id": 4, "resposta": "Fi de via preferent", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r2.svg"
+    },
+    {
+      "id": 15,
+      "pregunta": "15. Aquest senyal (cercle blanc amb vora vermella, sense dibuix) indica...",
+      "respostes": [
+        { "id": 1, "resposta": "Prohibit el pas a vehicles de motor", "correcta": false },
+        { "id": 2, "resposta": "Direcció prohibida", "correcta": false },
+        { "id": 3, "resposta": "Prohibit el pas a tota classe de vehicles en ambdós sentits", "correcta": true },
+        { "id": 4, "resposta": "Fi de totes les prohibicions", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r100.svg"
+    },
+    {
+      "id": 16,
+      "pregunta": "16. Quin és el significat d'aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "Circulació prohibida en ambdós sentits", "correcta": false },
+        { "id": 2, "resposta": "Direcció prohibida (entrada prohibida)", "correcta": true },
+        { "id": 3, "resposta": "Prohibit avançar", "correcta": false },
+        { "id": 4, "resposta": "Entrada prohibida a motocicletes", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r101.svg"
+    },
+    {
+      "id": 17,
+      "pregunta": "17. Quin és el significat d'aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "Entrada prohibida a tota classe de vehicles", "correcta": false },
+        { "id": 2, "resposta": "Entrada prohibida a motocicletes", "correcta": false },
+        { "id": 3, "resposta": "Entrada prohibida a vehicles de motor, excepte motocicletes de dues rodes", "correcta": true },
+        { "id": 4, "resposta": "Entrada prohibida a ciclomotors", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r103.svg"
+    },
+    {
+      "id": 18,
+      "pregunta": "18. Quin és el significat d'aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "Entrada prohibida a ciclomotors", "correcta": false },
+        { "id": 2, "resposta": "Entrada prohibida a motocicletes", "correcta": true },
+        { "id": 3, "resposta": "Entrada prohibida a vehicles agrícoles", "correcta": false },
+        { "id": 4, "resposta": "Entrada prohibida a vehicles de motor", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r104.svg"
+    },
+    {
+      "id": 19,
+      "pregunta": "19. Quin és el significat d'aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "Entrada prohibida a vehicles amb remolc", "correcta": false },
+        { "id": 2, "resposta": "Entrada prohibida a vehicles que transportin mercaderies perilloses", "correcta": false },
+        { "id": 3, "resposta": "Entrada prohibida a vehicles de transport de mercaderies", "correcta": false },
+        { "id": 4, "resposta": "Entrada prohibida a vehicles agrícoles de motor", "correcta": true }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r111.svg"
+    },
+    {
+      "id": 20,
+      "pregunta": "20. Quin és el significat d'aquest senyal?",
+      "respostes": [
+        { "id": 1, "resposta": "Circulació prohibida en ambdós sentits", "correcta": false },
+        { "id": 2, "resposta": "Prohibit girar a l'esquerra", "correcta": false },
+        { "id": 3, "resposta": "Avançament prohibit", "correcta": true },
+        { "id": 4, "resposta": "Prohibit aturar-se i estacionar", "correcta": false }
+      ],
+      "imatge": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Spain_traffic_signal_r305.svg"
+    }
+  ]
+}
